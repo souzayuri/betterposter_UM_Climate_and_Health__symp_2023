@@ -1,0 +1,92 @@
+---
+title: Termites' role as promoters of soil nutrient composition and gas flux in the Brazilian Savanna
+title_textsize: "90pt"
+font_family:	'Rasa'
+main_width: 0.5
+poster_height: "36in"
+poster_width: "48in"
+author:
+  - name: Yuri Souza
+    affil: 1
+    email: yuri.souza@miami.edu
+    orcid: 0000-0002-2133-0469
+    main: true
+  - name: Amy Zanne
+    affil: 1
+    email: aezanne@gmail.com
+    #orcid: 0000-0001-6379-9452
+    main: true
+author_textsize: "1.0em"
+affiliation:
+  - num: 1
+    address: Department of Biology, University of Miami
+affiliation_textsize: "45px"
+primary_colour: "#b7b67a" #"#50561f"
+secondary_colour: "#9e844e" 
+accent_colour: "#50561f"
+main_findings:
+  - "**Ecosystem engineers**: Accessing how **termites diversity** drives **carbon cycling** in a heterogeneous tropical savanna"
+  - '![](Yuri_Souza_PSI_poster_files/figure-html/PNCV_elevation.svg){.main_pic}'
+main_picwidth: 100%
+logoleft_name: '![](Yuri_Souza_PSI_poster_files/figure-html/qrcode_github.com.png){.main-img-left}'
+logoright_name: '![](Yuri_Souza_PSI_poster_files/figure-html/um_mound_5.png){.main-img-right}'
+main_textsize: "150px"
+body_textsize: "54px"
+body_bgcol: "#fff5e5"
+column_padding:	"10mm"
+output: 
+  posterdown::posterdown_betterland:
+    self_contained: false
+    pandoc_args: --mathjax
+    highlight: haddock
+    number_sections: false
+link-citations: true
+#bibliography: packages.bib
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(results = 'asis',
+                      echo = FALSE,
+                      warning = FALSE,
+                      tidy = FALSE,
+                      message = FALSE,
+                      fig.align = 'center',
+                      out.width = "100%")
+options(knitr.table.format = "html") 
+```
+
+```{r myplot, include=FALSE}
+
+```
+
+
+```{r, include=FALSE}
+knitr::write_bib(c('posterdown', 'rmarkdown','pagedown'), 'packages.bib')
+```
+
+# Introduction
+Termites have been recognized as essential ecosystem engineering and biotic driver worldwide. For instance, some species build mound nests for their inhabitants, and these structures may have secondary ecological roles, such as nutrient hotspots. They also contribute 4% and 2% of CH^4^ and CO^2^, respectively, and their ecological roles might be essential to compensate for these emissions.
+
+```{r murundus, echo=FALSE, fig.cap="Earthmounds in the National Park Chapada dos Veadeiros", out.width = '100%'}
+knitr::include_graphics("Yuri_Souza_PSI_poster_files/figure-html/murundus.png")
+```
+
+# Objectives
+We aim to disentangle **1)** how termite assemblages vary in a heterogeneous savanna landscape composed of different vegetation types and soil structures; and **2)** how these patterns might, in turn, drive gas flux dynamics across these different sites.
+
+# Methods
+
+This experiment will be carried out in the Brazilian **Cerrado**. The first part of this project focuses on *collecting termites* in different vegetation and soil structures using *linear transects* and *baits* and measuring *gas emissions* from the soil throughout these same gradients using a *LICOR*.
+
+
+```{r pncv, echo=FALSE, fig.cap="National Park Chapada dos Veadeiros", out.width = '95%'}
+knitr::include_graphics("Yuri_Souza_PSI_poster_files/figure-html/PNCV.png")
+```
+
+```{r pncverv, echo=FALSE, fig.cap="Species curve accumulation from a pilot project", out.width = '85%'}
+knitr::include_graphics("Yuri_Souza_PSI_poster_files/figure-html/rarefaction_curve.png")
+```
+
+# Hypothesis
+
+We hypothesize that termites effects can locally vary depending on feeding groups and habitat structure and condition.
