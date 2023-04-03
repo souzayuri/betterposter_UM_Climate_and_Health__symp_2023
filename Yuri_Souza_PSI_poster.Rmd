@@ -65,19 +65,19 @@ knitr::write_bib(c('posterdown', 'rmarkdown','pagedown'), 'packages.bib')
 ```
 
 # Introduction
-Termites have been recognized as essential ecosystem engineering and biotic driver worldwide. For instance, some species build mound nests for their inhabitants, and these structures may have secondary ecological roles, such as nutrient hotspots. They also contribute 4% and 2% of CH^4^ and CO^2^, respectively, and their ecological roles might be essential to compensate for these emissions.
+
+Termites have been recognized as essential ecosystem engineers and biotic drivers worldwide. For instance, some species build mound nests for their inhabitants, and these structures may have secondary ecological roles, such as nutrient hotspots. They also contribute 4% and 2% of CH<sup>4</sup> and CO<sup>2</sup>, respectively, and their ecological roles might be essential to compensate for these emissions.
 
 ```{r murundus, echo=FALSE, fig.cap="Earthmounds in the National Park Chapada dos Veadeiros", out.width = '100%'}
 knitr::include_graphics("Yuri_Souza_PSI_poster_files/figure-html/murundus.png")
 ```
 
 # Objectives
-We aim to disentangle **1)** how termite assemblages vary in a heterogeneous savanna landscape composed of different vegetation types and soil structures; and **2)** how these patterns might, in turn, drive gas flux dynamics across these different sites.
+We aim to disentangle **1)** how termite assemblages vary in a heterogeneous savanna landscape composed of different vegetation types and soil structures; and **2)** how these patterns might, in turn, drive gas flux dynamics across different sites.
 
 # Methods
 
-This experiment will be carried out in the Brazilian **Cerrado**. The first part of this project focuses on *collecting termites* in different vegetation and soil structures using *linear transects* and *baits* and measuring *gas emissions* from the soil throughout these same gradients using a *LICOR*.
-
+This experiment will be carried out in the Brazilian **Cerrado**. The first part of this project focuses on <em>collecting termites</em> in different vegetation and soil structures using *linear transects* and *baits*. Besides, we will measure *gas flux* of the soil using *LICOR* in the sampled termites sites.
 
 ```{r pncv, echo=FALSE, fig.cap="National Park Chapada dos Veadeiros", out.width = '95%'}
 knitr::include_graphics("Yuri_Souza_PSI_poster_files/figure-html/PNCV.png")
@@ -89,4 +89,4 @@ knitr::include_graphics("Yuri_Souza_PSI_poster_files/figure-html/rarefaction_cur
 
 # Hypothesis
 
-We hypothesize that termites effects can locally vary depending on feeding groups and habitat structure and condition.
+We hypothesize that termites' effects can locally *vary depending* on  *feeding groups* and *landscape structure* and  *conditions*, such as the differences in soil, water, and vegetation.
