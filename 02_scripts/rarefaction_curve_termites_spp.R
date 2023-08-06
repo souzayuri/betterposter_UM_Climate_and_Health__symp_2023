@@ -1,4 +1,3 @@
-#teste
 
 if(!require(tidyverse)) install.packages("tidyverse", dependencies = TRUE)
 if(!require(iNEXT)) install.packages("iNEXT", dependencies = TRUE)
